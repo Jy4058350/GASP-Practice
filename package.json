@@ -2,14 +2,13 @@
   "name": "gasp-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gsap": "file:gsap-bonus.tgz",
-    "node": "^20.0.0"
+    "gsap": "^3.11.5"
   }
 }
