@@ -10,12 +10,15 @@ const chars = mySplitText.chars;
 console.log(chars);
 
 overwrite.set(chars, {
-  opacity: 0.4,
+  opacity: 0,
+  
 });
 overwrite.to(chars, {
   opacity: 1,
-  duration: 1,
+  duration: 0.5,
   stagger: 0.07,
+  y: 10
+  
 
 });
 
