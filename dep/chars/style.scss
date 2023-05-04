@@ -1,0 +1,59 @@
+//_gsap.scssをインポート
+// @import "_gsap.scss";
+
+// @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.text-area {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+.background-color {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0;
+  position: relative;
+}
+
+.text {
+  opacity: 0;
+  transform: translateY(20px);
+  color: #ffffff;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title span {
+  opacity: 0;
+  color: #ffffff;
+}
