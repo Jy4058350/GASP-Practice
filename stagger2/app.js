@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const contents = document.querySelectorAll("div");
+  const contents = document.querySelectorAll("#div");
   console.log(contents);
   contents.forEach(function (box) {
     box.addEventListener("click", function () {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 gsap.from("div", {
   duration: 1,
   scale: 2.5,
-  opacity: 0.3,
+  opacity: 0,
   delay: 1,
   stagger: 0.5,
   ease: "elastic",
