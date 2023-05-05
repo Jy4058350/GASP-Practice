@@ -1,16 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {});
 
-document.querySelectorAll("#content").forEach((elem) => {
-  const str = elem.textContent.trim().split("");
+const str = document.querySelectorAll("#content")
+str.forEach((els) => {
+  const el = els.textContent.trim().split("");
   let output = "";
-  str.forEach((char) => {
+  el.forEach((char) => {
     if (char !== " ") {
       output += "<div>" + char + "</div>";
     } else {
       output += "<div class='space'></div>";
     }
   });
-  elem.innerHTML = output;
+  els.innerHTML = output;
   console.log(output);
 });
 
@@ -44,14 +45,13 @@ animatetext.from(chars, {
 
 
 
-
 // const mySplitText = new SplitText("#content");
 
 // const animatetext = gsap.timeline();
 // // const chars = mySplitText.output;
 // // console.log(chars);
 
-// animatetext.set(elem.innerHTML, {
+// animatetext.set(els.innerHTML, {
 //   opacity: 0,
 // });
 // // animatetext.from(output, {
