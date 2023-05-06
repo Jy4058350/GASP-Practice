@@ -8,7 +8,6 @@ secs.forEach((sec) => {
     scrollTrigger: {
       trigger: sec,
       start: "top center",
-      markers: true,
       toggleActions: 'play none none reverse'
     },
   });
