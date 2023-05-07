@@ -7,6 +7,7 @@ gsap.registerEffect({
       scale: 1.2,
       x: 200,
       y: 200,
+      force3D: true,
       onComplete: () => {
         gsap.set(targets, { opacity: 1, scale: 1, x: 0, y: 0 });
       },

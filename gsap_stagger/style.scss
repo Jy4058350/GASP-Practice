@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  //中央に横並びにする
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  background-color: red;
+  border-radius: 10px;
+}
