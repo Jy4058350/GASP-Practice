@@ -1,4 +1,7 @@
 {
     "liveServer.settings.port": 5501,
-    "livePreview.defaultPreviewPath": "/scroll/index.html"
+    "livePreview.defaultPreviewPath": "/scroll/index.html",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "gsaplearn"
+    ]
 }
